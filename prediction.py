@@ -6,11 +6,11 @@ import re
 import time
 
 # Load models
-model_lstm = load_model('E:/ML/model_lstm.keras')
-model_cnn = load_model('E:/ML/model_cnn.keras')
+model_lstm = load_model('model_lstm.keras')
+model_cnn = load_model('model_cnn.keras')
 
 # Load tokenizer
-with open('E:/ML/tokenizer.pkl', 'rb') as f:
+with open('tokenizer.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
 
 max_len = 100
