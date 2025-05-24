@@ -1,0 +1,12 @@
+tensorflow
+keras
+numpy
+pandas
+scikit-learn
+nltk
+spacy
+regex
+joblib
+pickle-mixin
+streamlit
+tqdm
