@@ -57,7 +57,7 @@ LSTM (captures sequences)
 
 Attention Mechanism (focus on important words)
 
-💡 Usage Guide
+# 💡 Usage Guide
 1. 🔧 Setup Environment
 bash
 Copy
@@ -85,36 +85,14 @@ Edit
 streamlit run app.py
 Access it at http://localhost:8501.
 
-✨ Example Output
-txt
-Copy
-Edit
+# ✨ Example Output
 Input Text: "This is awful and disgusting!"
 Prediction (LSTM): 🚫 Hate Speech
 Prediction (CNN): 🚫 Hate Speech
-📌 To-Do (Suggestions)
- Add SMOTE for severe class imbalance
 
- Visualize attention weights
-
- Add multilingual support (via langdetect, transformers)
-
- Deploy to Hugging Face Spaces or Streamlit Cloud
-
-🤖 Sample Preprocessing Code
-python
-Copy
-Edit
-def clean_text(text):
-    text = text.lower()
-    text = re.sub(r"http\S+|@\S+|#\S+|\d+", "", text)
-    text = re.sub(r"[^\w\s]", "", text)
-    return text.strip()
-📚 Dataset Used
+# 📚 Dataset Used
 You can plug in datasets like:
-
 Hate Speech and Offensive Language
-
 Kaggle Sentiment140
 
 Inspired by recent advancements in NLP with hybrid deep learning.
